@@ -1,0 +1,107 @@
+*body{
+	margin: 0px;
+}
+.F1{   
+  font-family: new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.F2{
+  font-family: new-spirit, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.F3{
+  font-family: source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title{
+  position: absolute;
+  margin: 50px;
+  font: 200px new-spirit, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: antiquewhite;
+}
+
+.header{
+  position: absolute;
+  margin: 30px 50px;
+  font: 14px source-code-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.C1{
+	position: absolute;
+	display: inline-block;
+	margin: 100px 100px;
+}
+
+.C3{
+  position: absolute;
+  display: inline-block;
+  margin: 100px 100px 100px 1000px;
+}
+
+.C5{
+  position: absolute;
+  display: inline-block;
+  margin: 100px 550px;
+}
+
+.C6{
+  position: absolute;
+  display: inline-block;
+  margin: 500px 90px;
+}
+
+.C8{
+  position: absolute;
+  display: inline-block;
+  margin: 500px 500px;
+}
+
+.C4{
+  position: absolute;
+  display: inline-block;
+  margin: 500px 100px 100px 1000px;
+}
+
+.C2{
+  position: absolute;
+  display: inline-block;
+  margin: 900px 100px;
+}
+
+.C9{
+  position: absolute;
+  display: inline-block;
+  margin: 900px 500px;
+}
+
+.C7{
+  position: absolute;
+  display: inline-block;
+  margin: 900px 100px 100px 1000px;
+}
+
+
+.image {
+  position: relative;
+  float: left;
+}
+
+.image .imagehover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.image:hover .imagehover {
+  display: block;
+}
